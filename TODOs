@@ -6,3 +6,27 @@ LinearRegression.fit()
 1. Mean Absolute error MAE 
 2. Mean Squared Error MSE
 3. Root mean squared error RMSE
+K Means - how do we know the right number of clusters
+Confusion matrix
+Precision,recall,f1 score,support
+
+
+Study and Learn
+- review the ISLR ebook
+- the statistical functions in dataframe.describe, normalized data?
+- learn about pairplot
+- LinearRegression.fit
+- Mean Absolute Error (MAE) it is an average error
+- Mean Squared Error (MSE) it is the mean of the squared error
+- Room Mean Squared Error (RMSE) is the square root of MSE
+- kmeans = KMeans(n_clusters=2) #how do we know the right amount of clusters?
+- precision, recall, f1-score, support
+- boxplot
+- pd.get_dummies
+sns.heatmap(train.isnull(),yticklabels=False,cbar=False,cmap='viridis')
+[4:48 PM] Khan, Kamran
+    sns.set_style('whitegrid')
+sns.countplot(x='Survived',data=train,palette='RdBu_r')
+​[4:49 PM] Khan, Kamran
+    sns.set_style('whitegrid')
+sns.countplot(x='Survived',hue='Sex',data=train,palette='RdBu_r')
